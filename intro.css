@@ -18,12 +18,12 @@ ul{
     background-color:black;
     }
 .name-bar{
-      height:50px;
-      display:flex;
-      align-items: center;
-      flex-direction:unset;
-      justify-content:left;
-      font-size: 40px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    flex-direction:unset;
+    justify-content:left;
+    font-size: 40px;
     }
 .arrow{
     width:50px;
@@ -78,7 +78,7 @@ ul{
     padding: 0px 25px;
     justify-content: space-between; 
     
-  }
+}
 .number{
     display: flex;
     padding: 5px 20px;
@@ -89,15 +89,14 @@ ul{
     justify-content: space-between;  
 }
 .word{
-  display: flex;
-  padding: 0px 20px;
-  
+    display: flex;
+    padding: 0px 20px;
 }
 .contents1{
-  padding-left: px;
+    padding-left: px;
 }
 .button-two{
-  padding: 10px 0px;
+    padding: 10px 0px;
 }
 .button{
     background-color: black;
@@ -111,34 +110,21 @@ ul{
     display: inline-block;
     justify-content: center;
     }
-.following{
-
-    }
-.message{
-
-}
 .container{
-  display:flex;
-  justify-content:flex
-  }
+    display:flex;
+    justify-content:flex
+}
 .body{
-  display:flex;
-  color:black;
-  flex-direction:row;
-  border:1px solid black;
-  padding:0px;
-  overflow: hidden;
-  background-color: white;
-  width: 165px;
-  height: 150px;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  }
-.body1{
-
-  }
-.body2{
-  }
-.body3{
-  }
+    display:flex;
+    color:black;
+flex-direction:row;
+border:1px solid black;
+padding:0px;
+    overflow: hidden;
+    background-color: white;
+    width: 165px;
+    height: 150px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
