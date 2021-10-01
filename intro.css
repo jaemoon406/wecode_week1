@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+.insta-font{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    }
+ul{
+    list-style:none;
+    padding-left:0px;
+    font-size: 20px;
+    }
+    body{
+    position: absolute;
+    left: 50%;
+    transform: translate(-80%,0%);
+    padding:20px 20px;
+    font-family: 'Noto Sans KR', sans-serif; 
+    color:white;
+    background-color:black;
+    }
+.name-bar{
+      height:50px;
+      display:flex;
+      align-items: center;
+      flex-direction:unset;
+      justify-content:left;
+      font-size: 40px;
+    }
+.arrow{
+    width:50px;
+    height:50px;
+    position:relative;
+    text-indent:-9999px;
+    margin-top: 10px;
+    margin-right: 40px;
+    }
+.arrow:before{
+    content:'';
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:100%;
+    top:50%;
+    border-left:2px solid white;
+    border-top:2px solid white;
+    transform:translate(140%,-50%) rotate(-45deg);
+    }
+.arrow:after{
+    content:'';
+    width:25px;
+    height:2px;
+    position:absolute;
+    left:8px;
+    top:50%;
+    transform:translateY(-50%);
+    background:white;
+    }
+.intro-name{
+    text-align:center;
+    }
+.head-icon{
+    margin-top: 40px;
+    }
+.count-number{
+    display: flex;
+    }
+.profile-pic{
+    width:12vh;
+    height:12vh;
+    border-radius: 70%;
+    overflow: hidden;
+    }
+.profile{
+    padding-left: 10vh;
+    padding-top: 1vh;
+}
+.feedcount{
+    display: flex;
+    padding: 0px 25px;
+    justify-content: space-between; 
+    
+  }
+.number{
+    display: flex;
+    padding: 5px 20px;
+    
+}
+.feedword{
+    display: flex;
+    justify-content: space-between;  
+}
+.word{
+  display: flex;
+  padding: 0px 20px;
+  
+}
+.contents1{
+  padding-left: px;
+}
+.button-two{
+  padding: 10px 0px;
+}
+.button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    }
+.following{
+
+    }
+.message{
+
+}
+.container{
+  display:flex;
+  justify-content:flex
+  }
+.body{
+  display:flex;
+  color:black;
+  flex-direction:row;
+  border:1px solid black;
+  padding:0px;
+  overflow: hidden;
+  background-color: white;
+  width: 165px;
+  height: 150px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  }
+.body1{
+
+  }
+.body2{
+  }
+.body3{
+  }
