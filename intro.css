@@ -112,7 +112,8 @@ ul{
     }
 .container{
     display:flex;
-    justify-content:flex
+    justify-content:flex;
+    padding:100px 0px;
 }
 .body{
     display:flex;
