@@ -11,7 +11,7 @@ ul{
     body{
     position: absolute;
     left: 50%;
-    transform: translate(-80%,0%);
+    transform: translate(-50%,0%);
     padding:20px 20px;
     font-family: 'Noto Sans KR', sans-serif; 
     color:white;
